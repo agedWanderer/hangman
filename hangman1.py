@@ -15,7 +15,7 @@ def hangman(word):
     rletters = list(word)
     board = ["__"] * len(word)
     win = False
-    print("Welcome to Hangman")
+    print("Welcome to Hangman!")
     while wrong < len(stages) - 1:
         print("\n")
         msg = "Guess a letter"
